@@ -2,7 +2,6 @@ package com.feature.foodreceipt.controller;
 
 import com.feature.foodreceipt.model.RecipeModel;
 import com.feature.foodreceipt.repository.RecipeRepository;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

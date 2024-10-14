@@ -14,6 +14,8 @@ public class RecipeModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+
+    @Column(length = 1000)
     private String instructions;
 
     @JsonManagedReference // Anotasi untuk mengelola sisi ini dari referensi
